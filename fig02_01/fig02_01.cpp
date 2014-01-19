@@ -1,4 +1,4 @@
-// Fig. 2.1: fig02_01.cpp
+// Fig 2.1: fig02_01.cpp
 // Text-printing program.
 #include <iostream> // allows program to output data to the screen
 
