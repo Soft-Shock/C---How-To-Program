@@ -23,7 +23,7 @@
     <ClCompile Include="Date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex03_15.cpp">
+    <ClCompile Include="exc03_15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

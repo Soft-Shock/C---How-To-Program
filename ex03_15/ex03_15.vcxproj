@@ -14,6 +14,7 @@
     <ProjectGuid>{E2F91D33-BCE2-4D82-8D09-614D0A3B12D6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ex03_15</RootNamespace>
+    <ProjectName>exc03_15</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -82,7 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Date.cpp" />
-    <ClCompile Include="ex03_15.cpp" />
+    <ClCompile Include="exc03_15.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
