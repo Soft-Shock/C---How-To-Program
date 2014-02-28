@@ -6,8 +6,15 @@
 class Card
 {
 public:
-    Card::Card(int mFace, int mSuit);
+    Card::Card( const int cFace = 0, const int cSuit = 0 );
     ~Card();
+
+    Card &Card::setFace( const int cFace );
+    Card &Card::setSuit( const int cSuit );
+
+    std::string Card::toString() const;
+
+
 private:
     int mcFace;
     int mcSuit;
