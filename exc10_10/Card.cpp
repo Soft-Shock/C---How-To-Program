@@ -1,18 +1,24 @@
 #include "Card.h"
-#include <string>
-#include <vector>
-#include <iostream>
-#include <sstream>
 
 using namespace std;
 
-const vector<string> Card::mvdFaces =
-    { "NoFaceValueSet", "Ace", "2", "3",
-    "4", "5", "6", "7",
-    "8", "9", "10", "Jack",
-    "Queen", "King" };
-const vector<string> Card::mvdSuits =
-    { "NoSuitValueSet", "Diamonds", "Clubs", "Hearts", "Spades" };
+const string mvdFacesData[] = { "NoFaceValueSet", "Ace", "2", "3",
+"4", "5", "6", "7",
+"8", "9", "10", "Jack",
+"Queen", "King" };
+const vector<string> Card::mvdFaces( begin( mvdFacesData ), end( mvdFacesData ) );
+
+const string mvdSuitsData[] = { "NoSuitValueSet", "Diamonds", "Clubs", "Hearts", "Spades" };
+const vector<string> Card::mvdSuits( begin( mvdSuitsData ), end( mvdSuitsData ) );
+
+//// C++11 Initializer
+//const vector<string> Card::mvdFaces =
+//    { "NoFaceValueSet", "Ace", "2", "3",
+//    "4", "5", "6", "7",
+//    "8", "9", "10", "Jack",
+//    "Queen", "King" };
+//const vector<string> Card::mvdSuits =
+//    { "NoSuitValueSet", "Diamonds", "Clubs", "Hearts", "Spades" };
 
 Card::Card( const int cFace, const int cSuit )
 {

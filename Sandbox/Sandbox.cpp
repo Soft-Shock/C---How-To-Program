@@ -2,12 +2,14 @@
 // Write test code here
 #include <iostream>
 #include <string>
+#include "Test.h"
 
 using namespace std;
 
 int main()
 {
-
+    //Test::var = 2;
+    cout << Test::var;
 /*
     string name = "John";
     int age = 21;
