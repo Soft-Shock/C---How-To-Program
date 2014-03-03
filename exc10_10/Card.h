@@ -15,6 +15,10 @@ public:
 
     Card &setFace( const int cFace );
     Card &setSuit( const int cSuit );
+    int getFace() const;
+    int getSuit() const;
+
+    bool operator==( const Card &rhs ) const;
     std::string toString() const;
 
 private:

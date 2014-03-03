@@ -13,10 +13,13 @@
   <ItemGroup>
     <ClCompile Include="..\exc10_10\Card.cpp" />
     <ClCompile Include="..\exc10_10\DeckOfCards.cpp" />
+    <ClCompile Include="exc10_11.cpp" />
+    <ClCompile Include="PokerHand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\exc10_10\Card.h" />
     <ClInclude Include="..\exc10_10\DeckOfCards.h" />
+    <ClInclude Include="PokerHand.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{912F5C45-6306-4AD2-9072-C609730E315C}</ProjectGuid>
@@ -61,6 +64,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\exc10_10</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

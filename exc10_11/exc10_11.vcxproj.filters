@@ -21,12 +21,21 @@
     <ClCompile Include="..\exc10_10\DeckOfCards.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PokerHand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exc10_11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\exc10_10\Card.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\exc10_10\DeckOfCards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PokerHand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

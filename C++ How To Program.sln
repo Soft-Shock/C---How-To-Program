@@ -36,6 +36,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{CEF92BB0-7665-4785-A2B5-13E19E6B4685}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exc10_11", "exc10_11\exc10_11.vcxproj", "{912F5C45-6306-4AD2-9072-C609730E315C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{068F3833-2A82-4966-8C06-867781EDDCCC} = {068F3833-2A82-4966-8C06-867781EDDCCC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

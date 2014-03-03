@@ -47,6 +47,27 @@ Card &Card::setSuit( const int cSuit )
     return *this;
 }
 
+int Card::getFace() const
+{
+    return mcFace;
+}
+
+int Card::getSuit() const
+{
+    return mcSuit;
+}
+
+
+bool Card::operator==( const Card &rhs ) const
+{
+    if ( getFace() == rhs.getFace() && getSuit() == rhs.getSuit() )
+    {
+        return true;
+    }
+
+    return false;
+}
+
 string Card::toString() const
 {
     return mvdFaces[mcFace] +string( " of " ) + mvdSuits[mcSuit];
