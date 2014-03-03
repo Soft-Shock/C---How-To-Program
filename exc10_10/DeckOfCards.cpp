@@ -3,7 +3,8 @@
 using namespace std;
 
 DeckOfCards::DeckOfCards()
-    : mCurrentCard( 0 )
+: mCurrentCard( 0 ),
+  mvDeck()
 {
     srand( time( 0 ) );
     setDeck();

@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{068F3833-2A82-4966-8C06-867781EDDCCC}</ProjectGuid>
+    <ProjectGuid>{CD5EEB22-170B-472C-B887-9832BD64F15C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>exc10_10</RootNamespace>
+    <RootNamespace>exc_10_11</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,13 +78,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Card.cpp" />
-    <ClCompile Include="DeckOfCards.cpp" />
-    <ClCompile Include="exc10_10.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Card.h" />
-    <ClInclude Include="DeckOfCards.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

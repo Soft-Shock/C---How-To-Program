@@ -15,13 +15,11 @@ public:
 
     Card &setFace( const int cFace );
     Card &setSuit( const int cSuit );
-
     std::string toString() const;
 
 private:
     int mcFace;
     int mcSuit;
-
 };
 
 #endif

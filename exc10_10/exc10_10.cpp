@@ -14,7 +14,7 @@ int main()
 
     deck.shuffle();
 
-    cout << "Dealing cards:\n" << endl;
+    cout << "Dealing cards:" << endl;
 
     while ( deck.moreCards() )
     {

@@ -21,6 +21,8 @@ const vector<string> Card::mvdSuits( begin( mvdSuitsData ), end( mvdSuitsData ) 
 //    { "NoSuitValueSet", "Diamonds", "Clubs", "Hearts", "Spades" };
 
 Card::Card( const int cFace, const int cSuit )
+    : mcFace( 0 ),
+    mcSuit( 0 )
 {
     setFace(cFace).setSuit(cSuit);
 }
@@ -31,10 +33,6 @@ Card &Card::setFace( const int cFace )
     {
         mcFace = cFace;
     }
-    else
-    {
-        mcFace = 0;
-    }
 
     return *this;
 }
@@ -44,10 +42,6 @@ Card &Card::setSuit( const int cSuit )
     if ( cSuit >= 0 && static_cast<size_t> ( cSuit ) < mvdSuits.size( ) )
     {
         mcSuit = cSuit;
-    }
-    else
-    {
-        mcSuit = 0;
     }
 
     return *this;

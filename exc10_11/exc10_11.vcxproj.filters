@@ -15,21 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="exc10_10.cpp">
+    <ClCompile Include="..\exc10_10\Card.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Card.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DeckOfCards.cpp">
+    <ClCompile Include="..\exc10_10\DeckOfCards.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Card.h">
+    <ClInclude Include="..\exc10_10\Card.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DeckOfCards.h">
+    <ClInclude Include="..\exc10_10\DeckOfCards.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

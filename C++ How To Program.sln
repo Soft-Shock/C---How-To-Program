@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exc10_10", "exc10_10\exc10_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{CEF92BB0-7665-4785-A2B5-13E19E6B4685}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "exc10_11", "exc10_11\exc10_11.vcxproj", "{912F5C45-6306-4AD2-9072-C609730E315C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -105,6 +107,10 @@ Global
 		{CEF92BB0-7665-4785-A2B5-13E19E6B4685}.Debug|Win32.Build.0 = Debug|Win32
 		{CEF92BB0-7665-4785-A2B5-13E19E6B4685}.Release|Win32.ActiveCfg = Release|Win32
 		{CEF92BB0-7665-4785-A2B5-13E19E6B4685}.Release|Win32.Build.0 = Release|Win32
+		{912F5C45-6306-4AD2-9072-C609730E315C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{912F5C45-6306-4AD2-9072-C609730E315C}.Debug|Win32.Build.0 = Debug|Win32
+		{912F5C45-6306-4AD2-9072-C609730E315C}.Release|Win32.ActiveCfg = Release|Win32
+		{912F5C45-6306-4AD2-9072-C609730E315C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
